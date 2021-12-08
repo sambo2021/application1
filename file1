@@ -1,0 +1,15 @@
+sudo yum install git-all
+git config --global user.name "mohamedsambo"
+git config --global user.email mohamedsambomahmoud@gmail.com
+mkdir gittest 
+cd gittest 
+git init
+ls -A 
+touch file1
+git add file1
+git commit -m "create file1 "
+git status 
+git remote add origin ssh url 
+ssh-keygen -t rsa -b 4096 -C "mohamedsambomahmoud@gmail.com" 
+cat for public key and copy it and paste it in ssh on git account 
+git push origin master 
