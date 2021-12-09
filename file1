@@ -13,3 +13,4 @@ git remote add origin ssh url
 ssh-keygen -t rsa -b 4096 -C "mohamedsambomahmoud@gmail.com" 
 cat for public key and copy it and paste it in ssh on git account 
 git push origin master 
+hello, this is mohamed
